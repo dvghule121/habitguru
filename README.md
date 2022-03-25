@@ -59,21 +59,8 @@
 <p>&nbsp;</p>
 
 <p>&nbsp;</p>
+    
+## Link for APK: 
+<a href="https://drive.google.com/file/d/1qh6AcfrOoXGzHEcUsp-K89b7rYQkNBHE/view?usp=sharing" > <img src="https://img.shields.io/badge/apk-OrderIt-green" alt="apk"> </a><br><br>
 
-<p>&nbsp;</p>
 
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
