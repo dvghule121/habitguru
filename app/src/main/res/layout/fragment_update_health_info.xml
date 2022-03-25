@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adapter.update_health_info">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Water"
+            android:textColor="@color/text_primary_light"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/health_image"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:src="@drawable/_505477"
+            app:layout_constraintBottom_toTopOf="@+id/rectangle_5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_text"
+            app:layout_constraintVertical_bias="0.072" />
+
+        <View
+            android:id="@+id/rectangle_5"
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/update_bg"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <View
+            android:id="@+id/rectangle_6"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/upper_update_bg"
+            app:layout_constraintEnd_toEndOf="@+id/rectangle_5"
+            app:layout_constraintHorizontal_bias="0.313"
+            app:layout_constraintStart_toStartOf="@+id/rectangle_5"
+            app:layout_constraintTop_toTopOf="@+id/rectangle_5" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Goal preview"
+            android:textColor="@color/text_primary_light"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="@+id/rectangle_5"
+            app:layout_constraintTop_toTopOf="@+id/rectangle_5" />
+
+        <ProgressBar
+            android:id="@+id/progressBarHealth"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="28dp"
+            android:indeterminateBehavior="repeat"
+            android:indeterminateOnly="false"
+            android:max="12"
+            android:progress="10"
+            android:progressDrawable="@drawable/ring"
+            app:layout_constraintStart_toStartOf="@+id/textView6"
+            app:layout_constraintTop_toBottomOf="@+id/rectangle_6" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:text="70 %"
+            app:layout_constraintBottom_toBottomOf="@+id/progressBarHealth"
+            app:layout_constraintEnd_toEndOf="@+id/progressBarHealth"
+            app:layout_constraintStart_toStartOf="@+id/progressBarHealth"
+            app:layout_constraintTop_toTopOf="@+id/progressBarHealth" />
+
+        <TextView
+            android:id="@+id/target"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/input_box"
+            android:fontFamily="@font/poppins_bold"
+            android:inputType="number"
+            android:numeric="integer"
+            android:padding="15dp"
+            android:text="12 Glass "
+            android:textAlignment="viewStart"
+            android:textColor="@color/text_primary_light"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.578"
+            app:layout_constraintStart_toEndOf="@+id/progressBarHealth"
+            app:layout_constraintTop_toBottomOf="@+id/rectangle_6" />
+
+        <TextView
+            android:id="@+id/cur"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/input_box"
+            android:fontFamily="@font/poppins_bold"
+            android:padding="15dp"
+            android:text="5 "
+            android:textAlignment="viewStart"
+            android:textColor="@color/text_primary_light"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.578"
+            app:layout_constraintStart_toEndOf="@+id/progressBarHealth"
+            app:layout_constraintTop_toBottomOf="@+id/target" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/add_health"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:contentDescription="@string/app_name"
+            android:src="@android:drawable/ic_input_add"
+            app:layout_constraintBottom_toBottomOf="@+id/cur"
+            app:layout_constraintEnd_toEndOf="@+id/target"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/progressBarHealth"
+            app:layout_constraintTop_toTopOf="@+id/cur" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="Goal"
+            android:textColor="@color/text_primary_light"
+            app:layout_constraintBottom_toTopOf="@+id/target"
+            app:layout_constraintStart_toStartOf="@+id/target" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="Progress"
+            android:textColor="@color/text_primary_light"
+            app:layout_constraintBottom_toTopOf="@+id/cur"
+            app:layout_constraintStart_toStartOf="@+id/cur" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Progress"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/progressBarHealth"
+            app:layout_constraintStart_toStartOf="@+id/progressBarHealth" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:background="@null"
+            android:src="@android:drawable/ic_input_add"
+            app:layout_constraintBottom_toBottomOf="@+id/target"
+            app:layout_constraintEnd_toEndOf="@+id/target"
+            app:layout_constraintTop_toTopOf="@+id/target"
+            app:layout_constraintVertical_bias="0.513" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
