@@ -50,16 +50,6 @@
 
 <p><img alt="" src="https://firebasestorage.googleapis.com/v0/b/dynocodes.appspot.com/o/images%2FFrame%201.png?alt=media&amp;token=e483a677-9cdf-41cd-a4a6-702e03102014" style="height:600px; width:600px" /></p>
 
-<p>&nbsp;</p>
-
-<p>project link will be shared soon till then eat sleep code repeat.</p>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
-    
 ## Link for APK: 
 <a href="https://drive.google.com/file/d/1qh6AcfrOoXGzHEcUsp-K89b7rYQkNBHE/view?usp=sharing" > <img src="https://img.shields.io/badge/apk-OrderIt-green" alt="apk"> </a><br><br>
 
