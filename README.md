@@ -4,7 +4,7 @@
 
 <p>hello guys,<strong> </strong></p>
 
-<p>did you ever forget some task that was easy but you didnt remebered it due to some reason ? by the way i used to forget very often so i got idea to make an app that will remind me of my daily schedule so i wont miss them.</p>
+<p>did you ever forgot daily task that was easy but you didnt remebered it due to some reason? by the way i used to forget very often so i got idea to make an app that will remind me of my daily schedule so i wont miss it.</p>
 
 <p>&nbsp;</p>
 
